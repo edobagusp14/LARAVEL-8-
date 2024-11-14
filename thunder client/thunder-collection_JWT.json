@@ -1,0 +1,148 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "JWT",
+    "collectionId": "ff34fc48-24b3-4451-92d1-508679998811",
+    "dateExported": "2024-11-14T03:37:16.837Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6d6c1715-3803-4ab9-b185-dd0bb759cc2f",
+            "colId": "ff34fc48-24b3-4451-92d1-508679998811",
+            "containerId": "",
+            "name": "token",
+            "url": "http://127.0.0.1:8000/api/auth/user-profile?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-14T03:33:38.351Z",
+            "modified": "2024-11-14T03:33:38.351Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "c6527a13-3b06-44d2-8e58-22882628b640",
+            "colId": "ff34fc48-24b3-4451-92d1-508679998811",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-14T03:33:54.761Z",
+            "modified": "2024-11-14T03:33:54.761Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "admin@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "dac660b6-007f-41a1-8b1c-a83839755b4e",
+            "colId": "ff34fc48-24b3-4451-92d1-508679998811",
+            "containerId": "",
+            "name": "logout",
+            "url": "http://127.0.0.1:8000/api/auth/logout?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1MzkzMiwiZXhwIjoxNzMxNTU3NTMyLCJuYmYiOjE3MzE1NTM5MzIsImp0aSI6IkVBMllvRzFUUG1VVFhnMWQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.8jPP-bwbrz6swLNsUswO6vuYS6x5wnz5h7hvKlhxz70",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-14T03:34:04.169Z",
+            "modified": "2024-11-14T03:34:04.169Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1MzkzMiwiZXhwIjoxNzMxNTU3NTMyLCJuYmYiOjE3MzE1NTM5MzIsImp0aSI6IkVBMllvRzFUUG1VVFhnMWQiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.8jPP-bwbrz6swLNsUswO6vuYS6x5wnz5h7hvKlhxz70",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "2bab9be3-5a67-4d3c-bf4a-c004151ec92e",
+            "colId": "ff34fc48-24b3-4451-92d1-508679998811",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:8000/api/auth/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-14T03:35:43.154Z",
+            "modified": "2024-11-14T03:36:51.226Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "admin2@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    },
+                    {
+                        "name": "name",
+                        "value": "soleh"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a690efa7-1252-43fe-b87c-32f8084aa658",
+            "colId": "ff34fc48-24b3-4451-92d1-508679998811",
+            "containerId": "",
+            "name": "refresh",
+            "url": "http://127.0.0.1:8000/api/auth/refresh?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-14T03:34:16.321Z",
+            "modified": "2024-11-14T03:34:16.321Z",
+            "headers": [
+                {
+                    "name": "Accept-Encoding",
+                    "value": "gzip, defelate, br"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTczMTU1NTE0OSwiZXhwIjoxNzMxNTU4NzQ5LCJuYmYiOjE3MzE1NTUxNDksImp0aSI6InBxTHNRQ21US2pSdjJiY2UiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.DhpiBRrnLzBZIdOeGanDcJM2NkoDveRxOkGh9xtZ2lI",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "X6HjITfLPOWZJnqY9K8Z2m0tZS66GghMo-GrUgjCH-OLcV5if0jj64uC5K_wy96ICbdwzCPaOPffw8GsRoaZ0A"
+}
